@@ -22,7 +22,7 @@ app.use(express.static('public'))
 app.use(express.json())
 
 //rutas 
-app.use('/api/auth', require('./routes/auth'))
+app.use('/api/auth', require('./routes/auth'))//primero le pongo  el nombre de la ruta y luego la funcion 
 app.use('/api/events', require('./routes/events') );
 
 //escuchar peticiones

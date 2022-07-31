@@ -43,7 +43,7 @@ const crearUsuario = async(req, res = response) =>{
         console.log(error);
         res.status(201).json({
             ok: false,
-            msg: 'hable con los master supremos',
+            msg: 'No se creo la cuenta',
         })
 
     }
